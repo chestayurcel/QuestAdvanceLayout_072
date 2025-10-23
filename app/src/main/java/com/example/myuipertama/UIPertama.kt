@@ -1,6 +1,6 @@
 package com.example.myuipertama
 
-import android.media.Image
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -51,7 +51,16 @@ fun ActivitasPertama(modifier: Modifier){
                 Spacer(modifier = Modifier.width(30.dp)))
                 Column() {
                     Text(
-
+                        stringResource(R.string.nama),
+                        fontSize = 30.sp,
+                        fontWeight = FontWeight.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 15.dp)
+                    )
+                    Text(
+                        stringResource(R.string.alamat),
+                        fontSize = 20.sp,
+                        color = Color.White,
                     )
                 }
             }
