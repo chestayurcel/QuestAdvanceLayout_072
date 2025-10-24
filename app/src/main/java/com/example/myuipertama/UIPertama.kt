@@ -74,7 +74,9 @@ fun ActivitasPertama(modifier: Modifier){
             colors = CardDefaults.cardColors(
                 containerColor = Color.Blue
             )) {
-            Row() {
+            Row(modifier = Modifier
+                .fillMaxWidth(),
+                verticalAlignment = Alignment.CenterVertically) {
                 val gambar = painterResource(R.drawable.logo_umy)
                 Image(
                     painter = gambar,
@@ -85,8 +87,8 @@ fun ActivitasPertama(modifier: Modifier){
                 Column() {
                     Text(
                         stringResource(R.string.nama),
-                        fontSize = 30.sp,
-                        fontFamily = FontFamily.Cursive,
+                        fontSize = 25.sp,
+                        fontFamily = FontFamily.Default,
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                     )
@@ -110,9 +112,11 @@ fun ActivitasPertama(modifier: Modifier){
             .fillMaxWidth(1f)
             .padding(12.dp),
             colors = CardDefaults.cardColors(
-                containerColor = Color.DarkGray
+                containerColor = Color.Green
             )) {
-            Row() {
+            Row(modifier = Modifier
+                .fillMaxWidth(),
+                verticalAlignment = Alignment.CenterVertically) {
                 val gambar = painterResource(R.drawable.logo_umy)
                 Image(
                     painter = gambar,
@@ -123,8 +127,8 @@ fun ActivitasPertama(modifier: Modifier){
                 Column() {
                     Text(
                         stringResource(R.string.nama),
-                        fontSize = 30.sp,
-                        fontFamily = FontFamily.Cursive,
+                        fontSize = 25.sp,
+                        fontFamily = FontFamily.Default,
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                     )
