@@ -103,7 +103,7 @@ fun ActivitasPertama(modifier: Modifier){
                         stringResource(R.string.alamat),
                         fontSize = 20.sp,
                         color = Color.Yellow,
-                        modifier = Modifier.padding(top = 10.dp)
+                        modifier = Modifier.padding(top = 7.dp, bottom = 10.dp)
                     )
                 }
             }
@@ -112,7 +112,7 @@ fun ActivitasPertama(modifier: Modifier){
             .fillMaxWidth(1f)
             .padding(12.dp),
             colors = CardDefaults.cardColors(
-                containerColor = Color.Green
+                containerColor = Color(0xFF228B22)
             )) {
             Row(modifier = Modifier
                 .fillMaxWidth(),
@@ -143,7 +143,7 @@ fun ActivitasPertama(modifier: Modifier){
                         stringResource(R.string.alamat),
                         fontSize = 20.sp,
                         color = Color.Yellow,
-                        modifier = Modifier.padding(top = 10.dp)
+                        modifier = Modifier.padding(top = 7.dp, bottom = 10.dp)
                     )
                 }
             }
