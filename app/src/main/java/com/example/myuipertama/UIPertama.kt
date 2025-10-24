@@ -72,7 +72,7 @@ fun ActivitasPertama(modifier: Modifier){
             .fillMaxWidth(1f)
             .padding(12.dp),
             colors = CardDefaults.cardColors(
-                containerColor = Color.DarkGray
+                containerColor = Color.Blue
             )) {
             Row() {
                 val gambar = painterResource(R.drawable.logo_umy)
@@ -89,6 +89,13 @@ fun ActivitasPertama(modifier: Modifier){
                         fontFamily = FontFamily.Cursive,
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
+                    )
+                    Text(
+                        stringResource(R.string.nohp),
+                        fontSize = 20.sp,
+                        fontFamily = FontFamily.Serif,
+                        color = Color(0xFF4FC3F7),
+                        modifier = Modifier.padding(top = 10.dp)
                     )
                     Text(
                         stringResource(R.string.alamat),
@@ -120,6 +127,13 @@ fun ActivitasPertama(modifier: Modifier){
                         fontFamily = FontFamily.Cursive,
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
+                    )
+                    Text(
+                        stringResource(R.string.nohp),
+                        fontSize = 20.sp,
+                        fontFamily = FontFamily.Serif,
+                        color = Color(0xFF4FC3F7),
+                        modifier = Modifier.padding(top = 10.dp)
                     )
                     Text(
                         stringResource(R.string.alamat),
